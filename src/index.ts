@@ -1,4 +1,4 @@
-class arrayPaginator<T>  {
+export class arrayPaginator<T>  {
 	data: Array<T>;
 	maxPerPage: number;
 	currentPage: number;

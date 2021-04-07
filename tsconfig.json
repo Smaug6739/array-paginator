@@ -13,7 +13,7 @@
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"sourceMap": false,
-		"outDir": "./dist",
+		"outDir": "build",
 		//"outFile": "./dist/main.js",
 		"rootDir": "./src",
 		"removeComments": false,
