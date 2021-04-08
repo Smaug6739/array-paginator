@@ -1,9 +1,11 @@
 # Paginator of arrays
 <div style="text-align:center;">
- [![NPM](https://nodei.co/npm/array-paginator.png)](https://npmjs.org/package/array-paginator)
-This module is a paginator of arrays for simplify the pagination with arrays.
-This module split yours arrays in pages and you can recover this pages.
+ ![NPM](https://nodei.co/npm/array-paginator.png) (https://npmjs.org/package/array-paginator)
+
 </div>
+
+This module is a paginator of arrays for simplify the pagination with arrays. <br>
+This module split yours arrays in pages and you can recover this pages. <br> 
 ## Instalation
 
 Install the module : `npm install --save array-paginator`
