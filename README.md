@@ -1,7 +1,5 @@
 <div align="center">
-  
-# Paginator of arrays
-
+  <h1> Paginator of arrays </h1>
 <img src="https://nodei.co/npm/array-paginator.png"> <br>
   <a href="https://www.npmjs.com/package/array-paginator"> <img src="https://badge.fury.io/js/array-paginator.svg"> </a> 
   <a href="https://github.com/SmaugDev/array-paginator.js/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/SmaugDev/array-paginator.svg"> </a>
