@@ -5,6 +5,7 @@
 <hr>
 This module is a paginator of arrays for simplify the pagination with arrays. <br>
 This module split yours arrays in pages and you can recover this pages. <br> 
+
 ## Instalation
 
 Install the module : `npm install --save array-paginator`
