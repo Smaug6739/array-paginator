@@ -1,8 +1,8 @@
 # Paginator of arrays
 <div align="center">
-![NPM](https://nodei.co/npm/array-paginator.png) <br>
-![version](https://badge.fury.io/js/array-paginator.svg) 
-[![GitHub license](https://img.shields.io/github/license/SmaugDev/array-paginator.svg)](https://github.com/SmaugDev/array-paginator.js/blob/master/LICENSE)
+<img src="https://nodei.co/npm/array-paginator.png"> <br>
+  <a href="https://www.npmjs.com/package/array-paginator"> <img src="https://badge.fury.io/js/array-paginator.svg"> </a> 
+  <a href="https://github.com/SmaugDev/array-paginator.js/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/SmaugDev/array-paginator.svg"> </a>
 </div>
 <hr>
 This module is a paginator of arrays for simplify the pagination with arrays. <br>
