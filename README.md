@@ -1,7 +1,9 @@
 # Paginator of arrays
+<div align="center">
 ![NPM](https://nodei.co/npm/array-paginator.png) <br>
 ![version](https://badge.fury.io/js/array-paginator.svg) 
 [![GitHub license](https://img.shields.io/github/license/SmaugDev/array-paginator.svg)](https://github.com/SmaugDev/array-paginator.js/blob/master/LICENSE)
+</div>
 <hr>
 This module is a paginator of arrays for simplify the pagination with arrays. <br>
 This module split yours arrays in pages and you can recover this pages. <br> 
