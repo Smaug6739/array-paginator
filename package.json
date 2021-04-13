@@ -1,6 +1,6 @@
 {
   "name": "array-paginator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A module for simplify paginate with arrays",
   "main": "build/index.js",
   "scripts": {
