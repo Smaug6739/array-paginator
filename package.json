@@ -1,11 +1,25 @@
 {
   "name": "array-paginator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module for simplify paginate with arrays",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmaugDev/array-paginator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SmaugDev/array-paginator/issues"
+  },
+  "keywords": [
+    "array",
+    "pagination",
+    "pager",
+    "utility"
+  ],
   "author": "SmaugDev",
   "license": "MIT",
   "devDependencies": {
