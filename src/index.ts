@@ -1,5 +1,3 @@
-import { throws } from "node:assert";
-
 export class Paginator<T>  {
 	data: Array<T> | undefined;
 	maxPerPage: number;
