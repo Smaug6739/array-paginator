@@ -6,22 +6,20 @@
 		],
 		"target": "es6",
 		"module": "commonjs",
-		//"module": "system",
-		"noEmitOnError": true, //Pas de compilation en cas d'erreur,
+		"noEmitOnError": true,
 		"strict": true,
 		"moduleResolution": "node",
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"sourceMap": false,
-		"outDir": "build",
-		//"outFile": "./dist/main.js",
-		"rootDir": "./src",
+		"outDir": "./build",
+		"rootDir": "src",
 		"removeComments": false,
 		"noImplicitAny": true,
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 	},
 	"exclude": [
-		"node_modules"
+		"node_modules",
 	]
 }

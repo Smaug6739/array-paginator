@@ -3,9 +3,11 @@
   "version": "1.1.1",
   "description": "A module for simplify paginate with arrays",
   "main": "build/index.js",
+  "types": "typing/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "build:typing": "tsc  --build tsconfig.typing.json"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,3 @@
-import { throws } from "node:assert";
-
 export class Paginator<T>  {
 	data: Array<T> | undefined;
 	maxPerPage: number;
@@ -10,6 +8,7 @@ export class Paginator<T>  {
 		this.maxPerPage = maxPerPerPage || 5;
 		this.currentPage = currentPage || 1;
 		this.load(data)
+
 	}
 	load(data: Array<T>) {
 		this.data = data;
@@ -72,6 +71,4 @@ export class Paginator<T>  {
 		}
 		return this.currentPage - 1 > 0 ? true : false;
 	}
-
 }
-
