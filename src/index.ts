@@ -58,11 +58,8 @@ export class Paginator<T>  {
 		return this.page(this.currentPage - 1);
 	}
 
-	hasNext(index?: number): boolean {
-		if (index) {
-			return this.totalPages! > index + 1 ? true : false;
-		}
-		return this.totalPages! > this.currentPage ? true : false;
+	hasFirst(): boolean {
+		return this.totalPages ? true : false;
 	}
 
 	hasPrevious(index?: number): boolean {
@@ -70,5 +67,15 @@ export class Paginator<T>  {
 			return index - 1 > 0 ? true : false;
 		}
 		return this.currentPage - 1 > 0 ? true : false;
+	}
+	hasNext(index?: number): boolean {
+		if (index) {
+			return this.totalPages! > index + 1 ? true : false;
+		}
+		return this.totalPages! > this.currentPage ? true : false;
+	}
+
+	hasLast(): boolean {
+		return this.totalPages ? true : false;
 	}
 }

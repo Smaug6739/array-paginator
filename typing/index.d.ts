@@ -15,6 +15,8 @@ export declare class Paginator<T> {
     last(): (Array<T> | undefined);
     next(): (Array<T> | undefined);
     previous(): (Array<T> | undefined);
-    hasNext(index?: number): boolean;
+    hasFirst(): boolean;
     hasPrevious(index?: number): boolean;
+    hasNext(index?: number): boolean;
+    hasLast(): boolean;
 }

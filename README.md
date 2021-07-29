@@ -7,7 +7,7 @@
 </div>
 <hr>
 This module is a paginator of arrays for simplify the pagination with arrays.  
-This module split yours arrays in pages and you can recover this pages.  
+This module split yours arrays in pages and you can recover this pages.
 
 ## Instalation
 
@@ -35,7 +35,13 @@ Type : Array
 `previous()` return the previous page.  
 Type : Array
 
-`hasNext()` return true if next page exist (boolean).  
+`hasFirst()` return true if first page exist.  
+Type : boolean
+
+`hasNext()` return true if next page exist.  
+Type : boolean
+
+`hasLast()` return true if last page exist.  
 Type : boolean
 
 `hasPrevious()` return true if previous page exist.  
@@ -58,20 +64,19 @@ Type : Number
 ## Example
 
 ```js
-const { Paginator } = require('array-paginator');
-const data =  Array.from(new Array(50).keys())
+const { Paginator } = require("array-paginator");
+const data = Array.from(new Array(50).keys());
 const pager = new Paginator(data, 10);
 
-pager.page(2) // [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-pager.first() // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-pager.last() // [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
-pager.next() // [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-pager.previous() // undefined
-pager.hasNext() // true
-pager.hasPrevious() // false
+pager.page(2); // [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+pager.first(); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+pager.last(); // [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+pager.next(); // [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+pager.previous(); // undefined
+pager.hasNext(); // true
+pager.hasPrevious(); // false
 
-pager.current //5
-pager.all // [0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, ... 49]
-pager.total //5
-
+pager.current; //5
+pager.all; // [0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, ... 49]
+pager.total; //5
 ```
