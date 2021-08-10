@@ -1,64 +1,128 @@
-<div align="center">
-  <h1> Paginator of arrays </h1>
-<img src="https://nodei.co/npm/array-paginator.png">
-<br>
-  <a href="https://www.npmjs.com/package/array-paginator"> <img src="https://badge.fury.io/js/array-paginator.svg"></a>
-  <a href="https://github.com/Smaug6739/array-paginator.js/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/Smaug6739/array-paginator.svg"></a>
-</div>
-<hr>
+# Paginator of arrays
+
+![NPM](https://nodei.co/npm/array-paginator.png)
+
+![[NPM package](https://www.npmjs.com/package/array-paginator)](https://badge.fury.io/js/array-paginator.svg)
+![[LICENSE](https://github.com/Smaug6739/array-paginator.js/blob/master/LICENSE)](https://img.shields.io/github/license/Smaug6739/array-paginator.svg)
+
 This module is a paginator of arrays for simplify the pagination with arrays.  
 This module split yours arrays in pages and you can recover this pages.
 
-## Instalation
+## Getting started
 
-Install the module : `npm install --save array-paginator`
+### Installation
+
+With npm :
+
+```sh-session
+npm install array-paginator
+```
+
+With yarn :
+
+```sh-session
+yarn add array-paginator
+```
+
+### Import module
+
+With CommonJS syntax :
+
+```js
+const { Pagniator } = require("array-paginator");
+```
+
+With module syntax :
+
+```js
+import { Pagniator } = from 'array-paginator';
+```
 
 ## Usage
 
 Create a new Pagniator with an array as a parameter and two optionals parameters : max items per page (default:5) and current page (default:1) :
-`new Paginator(data, 15, 1)`.
 
-### Methods
+```js
+const paginator = new Paginator(data, 15, 1)`.
+```
 
-`page(number)` return a specific page (parameter is a number)  
+## Paginator#page(page)
+
+Return a specific page.
+
+Parameters :
+
+- page : The page to get (type : `number`)
+
 Type : Array
 
-`first()` return the first page.  
+## Paginator#first()
+
+Return the first page.  
 Type : Array
 
-`last()` return the last page.  
+## Paginator#last()
+
+Return the last page.  
 Type : Array
 
-`next()` return the next page.  
+## Paginator#next()
+
+Return the next page.  
 Type : Array
 
-`previous()` return the previous page.  
+## Paginator#previous()
+
+Return the previous page.  
 Type : Array
 
-`hasFirst()` return true if first page exist.  
+## Paginator#hasFirst()
+
+Return true if first page exist.  
 Type : boolean
 
-`hasNext()` return true if next page exist.  
+## Paginator#hasNext()
+
+Return true if next page exist.  
 Type : boolean
 
-`hasLast()` return true if last page exist.  
+## Paginator#hasLast()
+
+Return true if last page exist.  
 Type : boolean
 
-`hasPrevious()` return true if previous page exist.  
+## Paginator#hasPrevious()
+
+Return true if previous page exist.  
 Type : boolean
 
-`update(newData)` Update data in array.  
+## Paginator#update(newData)
+
+Update data in array.
+
+Parameters :
+
+- newData : An array with new data (type : `Array<any>`).
+
 Type : boolean
 
-### Properties
+## Properties
 
-`.current` The current page.  
+---
+
+## Paginator.current
+
+The current page.  
 Type : Number
 
-`.all` return all data.  
+## Paginator.all
+
+Return all data.  
 Type : Array
 
-`total()` The total of pages.  
+## total()
+
+The total of pages.  
 Type : Number
 
 ## Example
