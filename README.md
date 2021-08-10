@@ -46,6 +46,20 @@ Create a new Pagniator with an array as a parameter and two optionals parameters
 const paginator = new Paginator(data, 15, 1)`.
 ```
 
+## Paginator#update(newData)
+
+Update data in array.
+
+Parameters :
+
+- newData : An array with new data (type : `Array<any>`).
+
+Type : Boolean
+
+```js
+const hasLastPage = paginator.update(data); // Update data
+```
+
 ## Paginator#page(page)
 
 Return a specific page.
@@ -56,55 +70,89 @@ Parameters :
 
 Type : Array
 
+```js
+const page = paginator.page(1); // Get page one
+```
+
 ## Paginator#first()
 
-Return the first page.  
+Return the first page.
+
 Type : Array
+
+```js
+const firstPage = paginator.first(); // Get first page
+```
 
 ## Paginator#last()
 
-Return the last page.  
+Return the last page.
+
 Type : Array
+
+```js
+const lastPage = paginator.last(); // Get last page
+```
 
 ## Paginator#next()
 
-Return the next page.  
+Return the next page.
+
 Type : Array
+
+```js
+const nextPage = paginator.next(); // Get next page
+```
 
 ## Paginator#previous()
 
-Return the previous page.  
+Return the previous page.
+
 Type : Array
+
+```js
+const previousPage = paginator.previous(); // Get previous page
+```
 
 ## Paginator#hasFirst()
 
-Return true if first page exist.  
-Type : boolean
+Return true if first page exist.
+
+Type : Boolean
+
+```js
+const previousPage = paginator.previous(); // Get previous page
+```
 
 ## Paginator#hasNext()
 
-Return true if next page exist.  
-Type : boolean
+Return true if next page exist.
 
-## Paginator#hasLast()
+Type : Boolean
 
-Return true if last page exist.  
-Type : boolean
+```js
+const hasNextPage = paginator.hasNext(); // true if next page exists
+```
 
 ## Paginator#hasPrevious()
 
-Return true if previous page exist.  
-Type : boolean
+Return true if previous page exist.
 
-## Paginator#update(newData)
+Type : Boolean
 
-Update data in array.
+```js
+const hasPreviousPage = paginator.hasPrevious(); // true if previous page exists
+```
 
-Parameters :
+## Paginator#hasLast()
 
-- newData : An array with new data (type : `Array<any>`).
+Return true if last page exist.
 
-Type : boolean
+Type : Boolean
+
+```js
+const hasLastPage = paginator.hasLast(); // true if last page exists
+```
 
 ## Properties
 
