@@ -29,18 +29,18 @@ yarn add array-paginator
 With CommonJS syntax :
 
 ```js
-const { Pagniator } = require("array-paginator");
+const { Paginator } = require("array-paginator");
 ```
 
 With module syntax :
 
 ```js
-import { Pagniator } = from 'array-paginator';
+import { Paginator } = from 'array-paginator';
 ```
 
 ## Usage
 
-Create a new Pagniator with an array as a parameter and two optionals parameters : max items per page (default:5) and current page (default:1) :
+Create a new Paginator with an array as a parameter and two optionals parameters : max items per page (default:5) and current page (default:1) :
 
 ```js
 const paginator = new Paginator(data, 15, 1)`.
