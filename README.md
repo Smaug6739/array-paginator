@@ -168,7 +168,7 @@ Type : Number
 Return all data.  
 Type : Array
 
-## total()
+## total
 
 The total of pages.  
 Type : Number
