@@ -43,7 +43,7 @@ import { Paginator } = from 'array-paginator';
 Create a new Paginator with an array as a parameter and two optionals parameters : max items per page (default:5) and current page (default:1) :
 
 ```js
-const paginator = new Paginator(data, 15, 1)`.
+const paginator = new Paginator(data, 15, 1);
 ```
 
 ## Paginator#update(newData)
