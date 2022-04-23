@@ -35,7 +35,7 @@ const { Paginator } = require("array-paginator");
 With module syntax :
 
 ```js
-import { Paginator } = from 'array-paginator';
+import { Paginator } from "array-paginator";
 ```
 
 ## Usage
