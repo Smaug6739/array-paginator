@@ -1,5 +1,5 @@
 {
-  "name": "array-paginator",
+  "name": "@smaug6739/array-paginator",
   "version": "2.0.0",
   "description": "A module for simplify paginate with arrays",
   "main": "build/index.js",
