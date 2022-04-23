@@ -1,12 +1,10 @@
 {
-	"include": [
-		"src/**/*"
-	],
-	"compilerOptions": {
-		"target": "ES2020",
-		"allowJs": true,
-		"declaration": true,
-		"emitDeclarationOnly": true,
-		"outDir": "typing"
-	}
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "ES2020",
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "typings"
+  }
 }
