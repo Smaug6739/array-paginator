@@ -46,9 +46,23 @@ Create a new Paginator with an array as a parameter and two optionals parameters
 const paginator = new Paginator(data, 15, 1);
 ```
 
-## Paginator#update(newData)
+## Paginator#push(newData)
 
-Update data in array.
+Push data in array.
+
+Parameters :
+
+- newData : A new data (type : `any`).
+
+Type : Boolean
+
+```js
+paginator.push(data); // Push data
+```
+
+## Paginator#set(newData)
+
+Set data in array.
 
 Parameters :
 
@@ -57,7 +71,21 @@ Parameters :
 Type : Boolean
 
 ```js
-const hasLastPage = paginator.update(data); // Update data
+paginator.set(data); // Set data
+```
+
+## Paginator#clear(newData)
+
+Clear data in array.
+
+Parameters :
+
+- newData : An array with new data (type : `Array<any>`).
+
+Type : Boolean
+
+```js
+paginator.clear(data); // Clear data
 ```
 
 ## Paginator#page(page)
