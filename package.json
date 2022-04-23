@@ -1,13 +1,13 @@
 {
   "name": "array-paginator",
-  "version": "1.5.2",
+  "version": "2.0.0",
   "description": "A module for simplify paginate with arrays",
   "main": "build/index.js",
   "types": "typings/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "build:typing": "tsc  --build tsconfig.typing.json"
+    "build:typings": "tsc  --build tsconfig.typing.json"
   },
   "repository": {
     "type": "git",
