@@ -26,8 +26,7 @@
   "author": "Smaug6739",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "16.11.0",
-    "typescript": "^4.6.3"
-  },
-  "dependencies": {}
+    "@types/node": "^18.11.4",
+    "typescript": "^4.8.4"
+  }
 }
